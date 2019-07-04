@@ -4,17 +4,29 @@
     <title> Alex Crafford, Android Developer </title>
     <link rel="stylesheet" href="style.css"
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <body>
-
       <section id="header">
         <div class="container text-center">
           <div class="welcome-container">
             <!-- TODO:  -->
             <!-- <img src="resources/construction_page.png"> -->
           </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="social-media-container">
+          <a href="#" class="fa fa-linkedin" onclick="directToSocialMedia('https://www.linkedin.com/in/alexander-crafford-471407a3/')"></a>
+          <a href="#" class="fa fa-twitter" onclick="directToSocialMedia('https://twitter.com/AlexCrafford')"></a>
+          <a href="#" class="fa fa-facebook" onclick="directToSocialMedia('https://www.facebook.com/alex.crafford.961')"></a>
+          <script>
+            function directToSocialMedia(param) {
+              window.location.href = param
+            }
+          </script>
         </div>
       </section>
     </body>
