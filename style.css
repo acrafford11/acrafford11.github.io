@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#header {
+  height: 100vh;
+  background: url(resources/construction_page_revamped.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.welcome-container {
+  /* TODO:  */
+}
+
+.welcome-container img {
+  /* TODO:  */
+}
